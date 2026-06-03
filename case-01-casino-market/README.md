@@ -1,7 +1,8 @@
 # Case 01 — Online Casino Games Market Analysis
 
 ## 📊 Dashboard
-[![Dashboard Preview](https://github.com/ntlsnell/igaming-bi-portfolio/blob/main/dashboards/1xBet%20Financial%20Performance%20Analysis.png?raw=true)](https://public.tableau.com/views/OnlineCasinoGamesMarketAnalysis/Dashboard1)
+
+[![Dashboard Preview](https://github.com/ntlsnell/igaming-bi-portfolio/blob/main/case-01-casino-market/dashboards/online%20casino%20games%20market%20analysis.png?raw=true)](https://public.tableau.com/views/OnlineCasinoGamesMarketAnalysis/Dashboard1)
 
 🔗 [View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/views/OnlineCasinoGamesMarketAnalysis/Dashboard1)
 
