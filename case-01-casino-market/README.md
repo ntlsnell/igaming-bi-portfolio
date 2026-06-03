@@ -27,5 +27,5 @@ Analysis of 1.2M+ casino game records across 80 casinos and 57 countries to iden
 - [Mobile Statistics](sql/04_mobile_stats.sql)
 
 ## 📂 Dataset
-Source: [Online Casino Games Dataset v2 — Kaggle]((https://www.kaggle.com/datasets/igormerlinicomposer/online-casino-games-dataset-1-2m-records))
+Source: [Online Casino Games Dataset — Kaggle](https://www.kaggle.com/datasets/igormerlinicomposer/online-casino-games-dataset-1-2m-records)
 Records: 1,200,000 games | 80 Casinos | 57 Countries | 7 Game Types
