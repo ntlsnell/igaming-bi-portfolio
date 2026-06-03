@@ -9,7 +9,7 @@
 ## ✨ Business Context
 Analysis of 35,000+ gaming sessions from 1xBet to identify revenue patterns, player loss rates, and peak performance periods.
 
-## 🔍 Key Insights
+## ✨ Key Insights
 - **Peak day**: April 17 generated $196M — 2.5x above average
 - **Player loss rate**: Stable at ~62% across all days
 - **Total casino earnings**: $765M over 9 days
