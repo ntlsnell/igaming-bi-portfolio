@@ -34,11 +34,13 @@ Analysis of 35,000+ gaming sessions to identify revenue patterns and player beha
 
 ---
 
-### Case 03 — AML & Compliance Risk Analysis *(coming soon)*
-Regulatory risk mapping across global iGaming jurisdictions.
+### [Case 03 — Global iGaming AML & Compliance Risk Analysis](case-03-aml-compliance/README.md)
+Regulatory risk mapping across 34 global iGaming jurisdictions.
 
 > Tools: SQL · Tableau Public
-> Dataset: 34 jurisdictions | AML scores | License costs
+> Dataset: 34 jurisdictions | 20 compliance indicators | Global coverage
+
+🔗 [View Dashboard](https://public.tableau.com/views/GlobaliGamingAMLComplianceRiskAnalysis/Dashboard1)
 
 ---
 
@@ -48,3 +50,4 @@ Regulatory risk mapping across global iGaming jurisdictions.
 |---|---|
 | Casino Market Analysis | [![preview](case-01-casino-market/dashboards/online%20casino%20games%20market%20analysis.png)](https://public.tableau.com/views/OnlineCasinoGamesMarketAnalysis/Dashboard1) |
 | 1xBet Financial Analysis | [![preview](case-02-1xBet-financial-performance-analysis/dashboards/1xBet%20Financial%20Performance%20Analysis.png)](https://public.tableau.com/views/1xBetFinancialPerformanceAnalysis/1xBetFinancialPerformanceAnalysis) |
+| AML Compliance Analysis | [![preview](case-03-aml-compliance/dashboards/aml-compliance-dashboard.png)](https://public.tableau.com/views/GlobaliGamingAMLComplianceRiskAnalysis/Dashboard1) |
