@@ -2,17 +2,17 @@
 
 A collection of data analysis projects focused on the iGaming industry, built to demonstrate BI analytics skills using real-world datasets.
 
-## 👩‍💻 About
+## ⭐️ About
 This portfolio showcases end-to-end analytics work including SQL data extraction, interactive dashboards, and business insights — targeting roles in iGaming analytics.
 
-## 🛠️ Stack
+## ⭐️ Stack
 - **SQL** (SQLite) — data extraction and transformation
 - **Tableau Public** — interactive dashboards
 - **GitHub** — version control and portfolio hosting
 
 ---
 
-## 📁 Cases
+## ⭐️ Cases
 
 ### [Case 01 — Online Casino Games Market Analysis](case-01-casino-market/README.md)
 Analysis of 1.2M+ casino game records across 80 casinos and 57 countries.
@@ -42,7 +42,7 @@ Regulatory risk mapping across global iGaming jurisdictions.
 
 ---
 
-## 📊 Dashboards Preview
+## ⭐️ Dashboards Preview
 
 | Case | Dashboard |
 |---|---|
