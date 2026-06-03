@@ -9,7 +9,7 @@
 ## ✨ Business Context
 Analysis of 1.2M+ casino game records across 80 casinos and 57 countries to identify market structure, provider performance, and growth trends in the iGaming industry.
 
-## 🔍 Key Insights
+## ✨ Key Insights
 - **Slots dominate**: 428,807 games — 2.5x more than any other category
 - **Top RTP provider**: Just For The Win at 96.25% average
 - **Market growth**: Sharp increase in 2015 — from 63K to 88K games per year
