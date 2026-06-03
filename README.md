@@ -27,5 +27,5 @@ player loss rates, and peak performance periods.
 - [Daily Earnings](sql/04_daily_earnings.sql)
 
 ### 📂 Dataset
-Source: [1xBet 35k Game Records — Kaggle](https://www.kaggle.com)
+Source: [1xBet 35k Game Records — Kaggle](https://www.kaggle.com/datasets/mito91243/1xbet-crash-game)
 Records: 34,863 gaming sessions | Period: April 11–19, 2024
