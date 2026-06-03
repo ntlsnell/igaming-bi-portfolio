@@ -23,7 +23,7 @@ Analysis of 1.2M+ casino game records across 80 casinos and 57 countries to iden
 
 ## 📁 SQL Queries
 - [Top Providers by RTP](sql/01_top_providers.sql)
-- [Game Types & Volatility](sql/02_game_types.sql)
+- [Game Types & Volatility](sql/02_game_types_volume.sql)
 - [Market Growth by Year](sql/03_market_growth.sql)
 - [Mobile Statistics](sql/04_mobile_stats.sql)
 
