@@ -4,7 +4,7 @@
 
 ### 📊 Dashboard
 
-[![Dashboard Preview](https://github.com/ntlsnell/igaming-bi-portfolio/blob/main/dashboards/1xBet%20Financial%20Performance%20Analysis.png?raw=true)](https://public.tableau.com/views/1xBetFinancialPerformanceAnalysis/1xBetFinancialPerformanceAnalysis)
+[![Dashboard Preview](https://github.com/ntlsnell/igaming-bi-portfolio/blob/main/dashboards/case-02-1xBet-financial-performance-analysis/1xBet%20Financial%20Performance%20Analysis.png?raw=true)](https://public.tableau.com/views/1xBetFinancialPerformanceAnalysis/1xBetFinancialPerformanceAnalysis)
 
 🔗 [View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/views/1xBetFinancialPerformanceAnalysis/1xBetFinancialPerformanceAnalysis)
 
