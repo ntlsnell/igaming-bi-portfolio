@@ -1,51 +1,35 @@
 # Case 04 — Cross-Dataset Analysis: Market Opportunity vs Regulatory Risk
 
-## ✨ Overview
-Cross-dataset analysis joining Casino Market data (1.2M records) 
-with AML Compliance data (34 jurisdictions) to identify optimal 
-market entry opportunities in the iGaming sector.
+## ✨ Dashboard
+[![Dashboard Preview](https://github.com/ntlsnell/igaming-bi-portfolio/blob/main/case-04-cross-dataset-analysis/dashboards/cross-dataset-analysis.png?raw=true)](https://public.tableau.com/views/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk)
 
-## ✨ Business Question
-Which jurisdictions offer the best balance between market size 
-and regulatory risk for iGaming operators?
+🔗 [View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/views/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk)
+
+## ✨ Business Context
+Cross-dataset analysis joining 1.2M casino game records with AML compliance data across 34 jurisdictions to identify optimal market entry opportunities — balancing game volume, license cost, and regulatory risk.
+
+## ✨ Key Insights
+- **Malta dominates**: 365,855 games under MGA license — largest market with Low risk rating
+- **Curacao = sweet spot**: 220,969 games at the lowest license cost ($15K) — best volume-to-cost ratio
+- **High risk jurisdictions**: 0 games available — providers avoid them entirely
+- **Italy paradox**: Most expensive license ($45K) but fewer games than cheaper jurisdictions
+- **All top 60 providers** operate across all 7 available jurisdictions simultaneously
+
+## ✨ Tools Used
+- SQL (SQLite) — cross-dataset JOIN with CASE mapping for jurisdiction normalization
+- Tableau Public — interactive dashboard with 5 visualizations
+- GitHub — version control and portfolio hosting
+
+## ✨ SQL Queries
+- [Games by Jurisdiction](sql/01_games_by_jurisdiction.sql)
+- [Jurisdiction Risk Profile](sql/02_jurisdiction_risk_profile.sql)
+- [Provider Risk Exposure](sql/03_provider_risk_exposure.sql)
+- [Risk vs Market Size](sql/04_risk_vs_market_size.sql)
+
+> Note: Key technical challenge — `license_jurisdiction` used regulator codes (MGA, UKGC) instead of country names. Solved with CASE mapping inside subquery before JOIN.
 
 ## ✨ Datasets
 | Dataset | Source | Size |
 |---|---|---|
-| Online Casino Games | Kaggle | 1,200,000 records |
-| iGaming AML Compliance | Kaggle | 34 jurisdictions |
-
-## ✨ Dashboard
-[View on Tableau Public](https://public.tableau.com/views/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk)
-
-![Dashboard](dashboards/cross-dataset-analysis.png?raw=true)
-
-## ✨ SQL Approach
-Key challenge: `license_jurisdiction` in Casino dataset used 
-regulator codes (MGA, UKGC) instead of country names.
-
-Solution: CASE mapping inside subquery before JOIN:
-- MGA → Malta
-- UKGC → United Kingdom  
-- Curaçao → Curacao
-- ADM → Italy
-- Kahnawake → Canada
-
-## ✨ Key Insights
-- **Malta dominates**: 365,855 games under MGA license (Low risk)
-- **Curacao = sweet spot**: 220,969 games at lowest license cost ($15K)
-- **High risk jurisdictions**: 0 games — providers avoid them entirely
-- **Italy paradox**: Most expensive license ($45K) but fewer games than cheaper jurisdictions
-- **All top 60 providers** operate across all 7 available jurisdictions
-
-## ✨ Visualizations
-1. Game Volume by License Jurisdiction
-2. License Cost vs Total Games (with trend lines by risk category)
-3. AML Risk Score vs License Cost by Jurisdiction (bubble chart)
-4. Top 15 Providers by Game Volume & AML Risk
-5. Average RTP by License Jurisdiction
-
-## ✨ Tools
-- DB Browser for SQLite — SQL JOINs with CASE mapping
-- Tableau Public — Dashboard
-- GitHub — Documentation
+| Online Casino Games | [Kaggle](https://www.kaggle.com/datasets/igormerlinicomposer/online-casino-games-dataset-1-2m-records) | 1,200,000 records |
+| iGaming AML Compliance | [Kaggle](https://www.kaggle.com/datasets/hirexel/igaming-aml-and-compliance-risk-dataset) | 34 jurisdictions |
