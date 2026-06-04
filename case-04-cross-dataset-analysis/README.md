@@ -17,7 +17,7 @@ Cross-dataset analysis joining 1.2M casino game records with AML compliance data
 
 ## ✨ Tools Used
 - SQL (SQLite) — cross-dataset JOIN with CASE mapping for jurisdiction normalization
-- Tableau Public — interactive dashboard with 5 visualizations
+- Tableau Public — interactive dashboard with 6 visualizations
 - GitHub — version control and portfolio hosting
 
 ## ✨ SQL Queries
@@ -27,6 +27,14 @@ Cross-dataset analysis joining 1.2M casino game records with AML compliance data
 - [Risk vs Market Size](sql/04_risk_vs_market_size.sql)
 
 > Note: Key technical challenge — `license_jurisdiction` used regulator codes (MGA, UKGC) instead of country names. Solved with CASE mapping inside subquery before JOIN.
+
+## ✨ Visualizations
+1. Top 15 Providers by Game Volume & AML Risk
+2. Average RTP by License Jurisdiction
+3. Game Volume by License Jurisdiction
+4. AML Risk Score vs License Cost by Jurisdiction (bubble chart)
+5. Market Size by Risk Category & Region
+6. License Cost vs Total Games (trend lines by risk category)
 
 ## ✨ Datasets
 | Dataset | Source | Size |
