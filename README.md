@@ -49,6 +49,15 @@ Cross-dataset JOIN analysis combining Casino Market and AML Compliance data acro
 
 ---
 
+### [Case 05 — Executive KPI Dashboard: Global Market Intelligence](case-05-executive-kpi-dashboard/README.md)
+Executive-level intelligence report combining regulatory risk and market opportunity across 33 global iGaming jurisdictions.
+> Tools: SQL · Tableau Public
+> Datasets: 1,200,000 casino records + 34 AML jurisdictions + 34,863 financial sessions
+
+🔗 [View Dashboard](https://public.tableau.com/views/iGamingGlobalMarketIntelligenceRiskOpportunityMap/Dashboard2)
+
+---
+
 ## ⭐️ Dashboards Preview
 
 | Case | Dashboard |
@@ -57,3 +66,4 @@ Cross-dataset JOIN analysis combining Casino Market and AML Compliance data acro
 | 1xBet Financial Analysis | [![preview](case-02-1xBet-financial-performance-analysis/dashboards/1xBet%20Financial%20Performance%20Analysis.png)](https://public.tableau.com/views/1xBetFinancialPerformanceAnalysis/1xBetFinancialPerformanceAnalysis) |
 | AML Compliance Analysis | [![preview](case-03-aml-compliance/dashboards/aml-compliance-dashboard.png)](https://public.tableau.com/views/GlobaliGamingAMLComplianceRiskAnalysis/Dashboard1) |
 | Cross-Dataset Analysis | [![preview](case-04-cross-dataset-analysis/dashboards/cross-dataset-analysis.png)](https://public.tableau.com/views/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk/iGamingCross-DatasetAnalysisMarketOpportunityvsRegulatoryRisk) |
+| Executive KPI Dashboard | [![preview](case-05-executive-kpi-dashboard/dashboards/iGaming%20Global%20Market%20Intelligence%20%E2%80%94%20Risk%20%26%20Opportunity%20Map.png)](https://public.tableau.com/views/iGamingGlobalMarketIntelligenceRiskOpportunityMap/Dashboard2) |
